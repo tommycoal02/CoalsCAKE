@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-
+     background-color: whitesmoke;
 }
 
 
@@ -30,7 +30,18 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+     background:  /* #818A83; */rgb(129,138,131);
+     margin: 0;
+     padding: 30px;
+}
+header ul{
+     list-style: none;
+     display: flex;
+     justify-content: space-around;
+}
+nav a{
+     text-decoration: none;
+     color: white;
 }
 
 footer {
